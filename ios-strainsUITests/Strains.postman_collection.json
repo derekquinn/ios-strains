@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "28125dbd-80d2-400f-8427-cc093c40c75e",
+		"name": "Strains",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sativa / Indica or Hybrid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "strainapi.evanbusse.com/{{apikey}}/strains/search/race/sativa",
+					"host": [
+						"strainapi",
+						"evanbusse",
+						"com"
+					],
+					"path": [
+						"{{apikey}}",
+						"strains",
+						"search",
+						"race",
+						"sativa"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
